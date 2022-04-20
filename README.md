@@ -1,7 +1,7 @@
 # PHP-Laravel Resume Builder App
 
 ## ℹ️ Overview
-** A resume builder app that you can build resumes, view/delete past resumes, view/edit resume items **
+** A resume builder app that you can build resumes, view/delete past resumes, view/edit/delete resume items **
 
 ## 🚀 Quick Start
 
