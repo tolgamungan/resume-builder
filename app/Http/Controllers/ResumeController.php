@@ -44,8 +44,6 @@ class ResumeController extends Controller
         $resume->socialMedia = request('socialMedia');
         $resume->save();
         
-        // $name = $request->input('name');
-
         $id = DB::table('generatedResumes')->latest('genId')->first()->genId;
         $skills = $request->input('skills');
         foreach($skills as $skill) {

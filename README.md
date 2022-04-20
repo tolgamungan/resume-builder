@@ -1,4 +1,25 @@
-List of Artisan commands
+# PHP-Laravel Resume Builder App
+
+## ℹ️ Overview
+** A resume builder app that you can build resumes, view/delete past resumes, view/edit resume items **
+
+## 🚀 Quick Start
+
+npm install && npm run dev
+
+composer install
+
+composer dump-autoload
+
+.env.example -> .env and change to sqlite
+
+create database.sqlite in database
+
+php artisan key:generate
+
+php artisan migrate
+
+## Some useful commands
 
 laravel new resume-builder
 -Build new application
@@ -45,3 +66,16 @@ php artisan route:list
 -Check existing routes 
 
 
+## ✍️ Author
+
+**Tolga Mungan**
+
+* Website: [tolgamungan](https://tolgamungan.com)
+* LinkedIn: [tmungann](https://www.linkedin.com/in/tmungan/)
+* Twitter: [@tolgamungan](https://twitter.com/tmungann)
+
+> [Buy me a coffee ☕](https://www.buymeacoffee.com/tolgamungan) and **support further development**!
+
+## Licence
+
+Released under [The MIT License](LICENCE)

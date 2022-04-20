@@ -11,13 +11,10 @@ use App\Models\ResumeRelations;
 
 class AdminController extends Controller
 {
-    //resume admin controller
-
     /**
      * Show all the resume items
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    
     public function index() {
         
         $data['resume-items'] = DB::table('resume_items')->get();
@@ -29,7 +26,7 @@ class AdminController extends Controller
         return view('admin.index', ['data' => $data]);
     }
     /**
-     * Edit resume item form-page
+     * Edit resume item
      * @return \Illuminate\Contracts\Support\Renderable
      */
     public function edit($id) {

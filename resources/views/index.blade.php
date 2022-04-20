@@ -45,7 +45,7 @@
                     {{--*** Education ***--}}
                     <div class="col" style="margin: 10px;">
                         <button class="btn btn-light" type="button" data-target="#eduDropdown" data-toggle="collapse" aria-expanded="false" aria-controls="eduDropdown" style="width: 350px;">
-                            {{ __('Education') }}&nbsp;&nbsp;<i class="fas fa-caret-down"></i>
+                            {{ __('Education') }}&nbsp;&nbsp;
                         </button>
                         <div class="collapse show" id="eduDropdown">
                             <select multiple style="border-radius: 0.25rem !important; margin-top: 5px; height: 250px; width: 350px;" name="education[]" id="education" required>
@@ -62,7 +62,7 @@
                     {{--*** Work Experience ***--}}
                     <div class="col" style="margin: 10px;">
                         <button class="btn btn-light" type="button" data-target="#expDropdown" data-toggle="collapse" aria-expanded="false" aria-controls="expDropdown" style="width: 350px;">
-                            {{ __('Work Experience') }}&nbsp;&nbsp;<i class="fas fa-caret-down"></i>
+                            {{ __('Work Experience') }}&nbsp;&nbsp;
                         </button>
                         <div class="collapse show" id="expDropdown">
                             <select multiple="multiple" multiple style="border-radius: 0.25rem !important; margin-top: 5px; height: 250px; width: 350px;" name="work[]" id="work" required>
@@ -76,7 +76,7 @@
                     {{--*** Others ***--}}
                     <div class="col" style="margin: 10px;">
                         <button class="btn btn-light" type="button" data-target="#certDropdown" data-toggle="collapse" aria-expanded="false" aria-controls="certDropdown" style="width: 350px;">
-                            {{ __('Hobbies, Awards, Projects, Certifications, Volunteer, Interests') }} &nbsp;&nbsp;<i class="fas fa-caret-down"></i>
+                            {{ __('Hobbies, Awards, Projects, Certifications, Volunteer, Interests') }} &nbsp;&nbsp;
                         </button>
                         <div class="collapse show" id="certDropdown">
                             <select multiple style="border-radius: 0.25rem !important; margin-top: 5px; height: 250px; width: 350px;" name="other[]" id="other" required>

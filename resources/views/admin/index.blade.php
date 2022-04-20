@@ -31,13 +31,13 @@
                     <td>{{$item->created_at}}</td>
                     <td style="font-size: 12px;">
                         <a href="{{ route('admin.edit', $item->itemId) }}">
-                            <i class="far fa-edit" style="margin-right: 2px;"></i>{{ __('Edit') }}
+                            <input type="button" class="btn btn-primary btn-sm" value="{{ __('Edit') }}" style="margin-right: 10px;"></button>
                         </a><br>
                         <form action="{{ route('admin.delete', $item->itemId)}}" method="post" style="margin: 0; padding: 0;">
                             {{ method_field('DELETE')}}
                             @csrf
                             <button type="submit" class="btn btn-link text-danger" style="font-size: 12px; margin: 0; padding: 0; border: 0;">
-                                <i class="fas fa-trash-alt" style="margin-right: 2px;"></i>{{ __('Delete') }}
+                                <input type="button" class="btn btn-danger btn-sm" value="{{ __('Delete') }}" style="margin-right: 10px;"></button>
                             </button>
                         </form>
                     </td>

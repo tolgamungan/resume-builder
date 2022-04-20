@@ -19,13 +19,13 @@
                     <td>{{$item->created_at}}</td>
                     <td style="font-size: 12px;">
                         <a href="{{ route('resume', $item->genId) }}">
-                            <i class="far fa-eye" style="margin-right: 2px;"></i>{{ __('View') }}
+                            <input type="button" class="btn btn-warning btn-sm" value="{{ __('View') }}" style="margin-right: 10px;"></button>
                         </a>
                         <form action="{{ route('admin.deleteResume', $item->genId)}}" method="post" style="margin: 0; padding: 0;">
                             {{ method_field('DELETE')}}
                             @csrf
                             <button type="submit" class="btn btn-link text-danger" style="font-size: 12px; margin: 0; padding: 0; border: 0;">
-                                <i class="fas fa-trash-alt" style="margin-right: 2px;"></i>{{ __('Delete') }}
+                                <input type="button" class="btn btn-danger btn-sm" value="{{ __('Delete') }}" style="margin-right: 10px;"></button>
                             </button>
                         </form>
                     </td>

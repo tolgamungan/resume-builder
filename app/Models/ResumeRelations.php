@@ -7,7 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class ResumeRelations extends Model
 {
-    //use Notifiable;
     /**
      * The table associated with the model.
      *

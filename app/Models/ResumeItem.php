@@ -7,7 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class ResumeItem extends Model
 {
-    //use Notifiable;
     /**
      * The table associated with the model.
      *
